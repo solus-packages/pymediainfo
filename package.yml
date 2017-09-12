@@ -1,6 +1,6 @@
 name       : pymediainfo
 version    : 2.1.9
-release    : 1
+release    : 2
 source     :
     - https://github.com/sbraz/pymediainfo/archive/v2.1.9.tar.gz : 4ff18c3f1ccbffd4bf35893dd984623d402bb224a16722e2f3bf33d29fd2f45f
 license    : MIT
@@ -12,7 +12,7 @@ builddeps  :
     - pkgconfig(python-2.7)
     - pkgconfig(python3)
     - python-setuptools
-rundeps :
+rundeps    :
     - libmediainfo
 setup      : |
     %python_setup
