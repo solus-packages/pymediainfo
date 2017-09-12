@@ -2,8 +2,8 @@
     <Source>
         <Name>pymediainfo</Name>
         <Packager>
-            <Name>Devil505</Name>
-            <Email>devil505linux@gmail.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.python</PartOf>
@@ -19,6 +19,14 @@
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymediainfo-2.1.9-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymediainfo-2.1.9-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymediainfo-2.1.9-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymediainfo-2.1.9-py2.7.egg-info/namespace_packages.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymediainfo-2.1.9-py2.7.egg-info/not-zip-safe</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymediainfo-2.1.9-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymediainfo/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pymediainfo/__init__.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pymediainfo-2.1.9-py3.5.egg-info/PKG-INFO</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pymediainfo-2.1.9-py3.5.egg-info/SOURCES.txt</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pymediainfo-2.1.9-py3.5.egg-info/dependency_links.txt</Path>
@@ -31,11 +39,11 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2017-07-19</Date>
+            <Date>2017-09-12</Date>
             <Version>2.1.9</Version>
             <Comment>Packaging update</Comment>
-            <Name>Devil505</Name>
-            <Email>devil505linux@gmail.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
